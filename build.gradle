@@ -13,6 +13,10 @@ dependencies {
     implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.0.0'
     implementation group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '5.0.3'
     implementation group: 'org.aeonbits.owner', name: 'owner', version: '1.0.12'
+    implementation 'org.testng:testng:7.1.0'
+
+    testImplementation group: 'org.testng', name: 'testng', version: '7.4.0'
+    testImplementation group: 'org.assertj', name: 'assertj-core', version: '3.21.0'
 }
 
 test {
