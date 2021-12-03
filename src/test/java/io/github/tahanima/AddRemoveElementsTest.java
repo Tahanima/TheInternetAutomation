@@ -15,12 +15,12 @@ public final class AddRemoveElementsTest extends BaseTest {
     @Override
     public void initialize() {
         addRemoveElementsPage = createInstance(AddRemoveElementsPage.class);
+
+        addRemoveElementsPage.goTo();
     }
 
     @Test(description = "Clicking 'Add Element' adds a 'Delete' button")
     public void testAddDeleteButton() {
-        addRemoveElementsPage.goTo();
-
         int initialDeleteButtonCount =
                 addRemoveElementsPage.countOfDeleteButtons();
 
@@ -35,7 +35,6 @@ public final class AddRemoveElementsTest extends BaseTest {
 
     @Test(description = "Clicking 'Delete' button removes one 'Delete' button")
     public void testRemoveDeleteButton() {
-        addRemoveElementsPage.goTo();
         addRemoveElementsPage.addDeleteButton();
 
         int initialDeleteButtonCount =
