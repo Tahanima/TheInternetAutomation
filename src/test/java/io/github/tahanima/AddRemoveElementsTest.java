@@ -19,7 +19,7 @@ public final class AddRemoveElementsTest extends BaseTest {
         addRemoveElementsPage.goTo();
     }
 
-    @Test(description = "Clicking 'Add Element' adds a 'Delete' button")
+    @Test(description = "Clicking 'Add Element' button adds a 'Delete' button")
     public void testAddDeleteButton() {
         int initialDeleteButtonCount =
                 addRemoveElementsPage.countOfDeleteButtons();
