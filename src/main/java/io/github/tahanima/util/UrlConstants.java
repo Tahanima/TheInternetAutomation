@@ -8,4 +8,5 @@ public final class UrlConstants {
     private UrlConstants() { }
 
     public static final String ADD_REMOVE_ELEMENTS_URL = "add_remove_elements/";
+    public static final String CHECKBOXES_URL = "checkboxes";
 }
