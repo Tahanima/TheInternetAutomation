@@ -1,6 +1,6 @@
 package io.github.tahanima;
 
-import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 import io.github.tahanima.page.AddRemoveElementsPage;
 import org.testng.annotations.Test;
