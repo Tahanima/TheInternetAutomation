@@ -1,13 +1,13 @@
 package io.github.tahanima.page;
 
+import static io.github.tahanima.config.ConfigurationManager.configuration;
+import static io.github.tahanima.util.UrlConstants.DROPDOWN_URL;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
 
 import java.util.List;
-
-import static io.github.tahanima.config.ConfigurationManager.configuration;
-import static io.github.tahanima.util.UrlConstants.DROPDOWN_URL;
 
 /**
  * This class captures the relevant UI components and
